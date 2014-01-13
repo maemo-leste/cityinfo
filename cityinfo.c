@@ -457,13 +457,14 @@ void
 cityinfo_free_all(Cityinfo **cities)
 {
   Cityinfo *city;
+  Cityinfo **tmp = cities;
 
   if (cities)
   {
-    while((city = *cities))
+    while((city = *tmp))
     {
       cityinfo_free(city);
-      cities++;
+      tmp++;
     }
 
     g_free(cities);
