@@ -1,19 +1,19 @@
-all: libcityinfo.so.0.0.0
+all: libcityinfo0.so.0.0.0
 
-libcityinfo.so.0.0.0: cityinfo.c cityinfo.h
-	$(CC) $(CFLAGS) $(shell pkg-config --cflags --libs glib-2.0 gconf-2.0) -shared -Wl,-soname=libcityinfo.so.0 $^ -o $@
+libcityinfo0.so.0.0.0: cityinfo.c cityinfo.h
+	$(CC) $(CFLAGS) $(shell pkg-config --cflags --libs glib-2.0 gconf-2.0) -shared -Wl,-soname=libcityinfo0.so.0 $^ -o $@
 
 clean:
-	$(RM) libcityinfo.so.0.0.0
+	$(RM) libcityinfo0.so.0.0.0
 
 install:
 	install -d "$(DESTDIR)/usr/lib/"
-	install -m 755 libcityinfo.so.0.0.0 "$(DESTDIR)/usr/lib/"
-	ln -s libcityinfo.so.0.0.0 "$(DESTDIR)/usr/lib/libcityinfo.so.0"
+	install -m 755 libcityinfo0.so.0.0.0 "$(DESTDIR)/usr/lib/"
+	ln -s libcityinfo0.so.0.0.0 "$(DESTDIR)/usr/lib/libcityinfo0.so.0"
 
 	install -d "$(DESTDIR)/usr/include/"
 	install -d  "$(DESTDIR)/usr/lib/pkgconfig"
-	ln -s libcityinfo.so.0 "$(DESTDIR)/usr/lib/libcityinfo.so"
+	ln -s libcityinfo0.so.0 "$(DESTDIR)/usr/lib/libcityinfo0.so"
 	install -m 644 cityinfo.h "$(DESTDIR)/usr/include/"
 	install -m 644 libcityinfo0-0.pc "$(DESTDIR)/usr/lib/pkgconfig"
 
