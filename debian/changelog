@@ -1,0 +1,275 @@
+cityinfo (0.5.15-1+0m5) unstable; urgency=low
+
+  * This entry has been added by BIFH queue processor
+    version has been changed to 0.5.15-1+0m5
+
+ -- aleksandr antonenko <ext-aleksandr.2.antonenko@nokia.com>  Wed, 31 Mar 2010 16:09:52 +0300
+
+cityinfo (0.5.15-1) unstable; urgency=low
+
+  * Week 13, 2010 - first release
+  *
+  * Fixes: NB#162603 - Western Sahara need to be removed from Time zone settings 
+  *
+
+ -- Moises Martinez <moises.martinez@nokia.com>  Mon, 29 Mar 2010 02:36:47 -0500
+
+cityinfo (0.5.14-1) unstable; urgency=low
+
+  * Week 7, 2010 - first release
+  *
+  * Fixes: NB#155625 - MENA regional variant: No Israel, no Tel Aviv instead
+  * 'Jerusalem, Jerusalem'
+  * Fixes: NB#155633 - Tel Aviv, Israel on World database (world clock)
+  *  for Vanilla/NAM variant
+ 
+ -- Moises Martinez <moises.martinez@nokia.com>  Thu, 11 Feb 2010 02:36:47 -0500
+
+cityinfo (0.5.13-1) unstable; urgency=low
+
+  * Week 6, 2010 - second release
+  *
+  * Fixes: NB#122734 Enable doc generation in cityinfo code
+  *
+
+ -- Moises Martinez <moises.martinez@nokia.com>  Thu, 11 Feb 2010 02:36:47 -0500
+
+cityinfo (0.5.12-2) unstable; urgency=low
+
+  * Week 6, 2010 - first release
+  *
+  * Adding libcityinfo-doc.files in debian for doc deb package
+  * 
+
+ -- Moises Martinez <moises.martinez@nokia.com>  Thu, 11 Feb 2010 02:18:38 -0500
+
+cityinfo (0.5.12-1) unstable; urgency=low
+
+  * Week 6, 2010 - first release
+  * 
+  * Adding Doc folder and make files for Gtk-doc support
+  *
+
+ -- Moises Martinez <moises.martinez@nokia.com>  Thu, 11 Feb 2010 02:12:25 -0500
+
+cityinfo (0.5.11-1) unstable; urgency=low
+
+  * Week 6, 2010 - first release
+  *
+  * Fixes: NB#155102 (Hong Kong, Hong Kong) i is displayed as a countr
+  * Fixes: NB#154956 Backwards compatibility problems with strict version
+  *
+
+ -- Moises Martinez <moises.martinez@nokia.com>  Tue,  9 Feb 2010 01:28:37 -0500
+
+cityinfo (0.5.10-1) unstable; urgency=low
+
+  * Week 51, 2009 - first release
+  *
+  * Fixes: NB#149052 Updated wdb in cityinfo (PR1.2)
+  * Fixes: NB#134785 Updated wdb in cityinfo (PR1.2)
+  *
+
+ -- Moises Martinez <moises.martinez@nokia.com>  Mon, 14 Dec 2009 04:22:39 -0500
+
+cityinfo (0.5.9-1) unstable; urgency=low
+
+  * Week 50, 2009 - first release
+  *
+  * Fixes: NB#150458 Updated wdb in cityinfo
+  * Fixes: NB#150461 Updated wdb in cityinfo
+  * 
+
+ -- Moises Martinez <moises.martinez@nokia.com>  Tue,  8 Dec 2009 00:35:08 -0500
+
+cityinfo (0.5.8-1) unstable; urgency=low
+
+  * Week 34, 2009 - first release
+  *
+  * Update copyright dates for cityinfo
+  *
+
+ -- Moises Martinez <moises.martinez@nokia.com>  Wed, 19 Aug 2009 11:39:02 +0300
+
+cityinfo (0.5.7-1) unstable; urgency=low
+
+  * Week 27, 2009 release
+  *
+  * Fixes: NB#123109 Logical id cloc_me_go_to_world_clock 
+  * Fixes: NB#123347 A couple of incorrect country codes in libcityinfo
+
+ -- Moises Martinez <moises.martinez@nokia.com>  Mon, 29 Jun 2009 00:07:45 +0300
+
+cityinfo (0.5.6-1) unstable; urgency=low
+
+  * Week 24, 2009 - first release
+  *
+  * Fixes: NB#120534 cityinfo_foreach() does not honor the return value of the callback
+
+ -- Moises Martinez <moises.martinez@nokia.com>  Sun, 07 Jun 2009 22:27:30 +0300
+
+cityinfo (0.5.5-2) hardy; urgency=low
+
+  * Week 22, 2009 - second release with bug fix to return correct timezome for Calcutta/Kolkata
+
+ -- Sudheer Chiluveri <sudheer.chiluveri@nokia.com>  Tue, 26 May 2009 17:44:14 +0300
+
+cityinfo (0.5.5-1) hardy; urgency=low
+
+  * Fixes: NB#109032 Startup Wizard - New Time zone to be added in "Region" for fr-FR
+  * Added timezones of non metropoli french cities to cityinfo database
+
+ -- Sudheer Chiluveri <sudheer.chiluveri@nokia.com>  Thu, 14 May 2009 15:59:03 +0300
+
+cityinfo (0.5.4-1) hardy; urgency=low
+
+  * adding l10n dependencies
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Fri, 24 Mar 2009 12:05:21 +0200
+
+cityinfo (0.5.3-1) hardy; urgency=low
+
+  * Week 14
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Thu, 26 Mar 2009 12:05:21 +0200
+
+cityinfo (0.5.2-1) hardy; urgency=low
+
+  * Fixes: NB#102410
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Thu, 19 Feb 2009 13:30:00 +0200
+
+cityinfo (0.5.1-1) hardy; urgency=low
+
+  * Fixing typo in one of the timezone in database
+  * Fixes: NB#101419
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Thu, 12 Feb 2009 14:30:00 +0200
+
+cityinfo (0.5.0-1) hardy; urgency=low
+
+  * updating version number to clock-global number
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Tue, 10 Feb 2009 19:00:00 +0200
+
+cityinfo (0.3.8-1) hardy; urgency=low
+
+  * Adding code country to the database
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Thu, 05 Feb 2009 14:30:00 +0200
+
+cityinfo (0.3.7-1) hardy; urgency=low
+
+  * Adding support for customization
+  * Tools for database converting updated
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Thu, 29 Jan 2009 13:00:00 +0200
+
+cityinfo (0.3.6-1) hardy; urgency=low
+
+  * Fixes: NB#98273
+  * new database
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Thu, 22 Jan 2009 13:30:00 +0200
+
+cityinfo (0.3.5-3) hardy; urgency=low
+
+  * Fixing problems with building process
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Thu, 08 Dec 2009 15:00:00 +0200
+
+cityinfo (0.3.5-2) hardy; urgency=low
+
+  * Removing not needed dependency
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Thu, 08 Dec 2009 12:30:00 +0200
+
+cityinfo (0.3.5-1) hardy; urgency=low
+
+  * Fixes: NB#95511
+  * Updating cities positions on the map
+  * Perl tool to recalculate cities positions
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Mon, 15 Dec 2008 12:00:00 +0200
+
+cityinfo (0.3.4-1) hardy; urgency=low
+
+  * Code refactoring and documentation
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Thu, 11 Dec 2008 13:30:00 +0200
+
+cityinfo (0.3.3-1) hardy; urgency=low
+
+  * Fixes: NB#93494
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Fri, 28 Nov 2008 14:00:00 +0200
+
+cityinfo (0.3.2-1) hardy; urgency=low
+
+  * Code refactoring - legal note
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Fri, 21 Nov 2008 15:00:00 +0200
+
+cityinfo (0.3.1-1) hardy; urgency=low
+
+  * Fixes: NB#90528
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Fri, 24 Oct 2008 16:16:00 +0300
+
+cityinfo (0.3.0-1) hardy; urgency=low
+
+  * removing unnecessary localization setup
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Mon, 20 Oct 2008 09:38:00 +0300
+
+cityinfo (0.2.1-1) hardy; urgency=low
+
+  * improving stabiliti in free_all functionality
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Fri, 03 Oct 2008 14:12:55 +0300
+
+cityinfo (0.2.0-1) hardy; urgency=low
+
+  * code review and code refactoring
+  * some minor memory management bugfixes
+  * adding doxygen configuration files
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Tue, 09 Sep 2008 12:38:55 +0300
+
+cityinfo (0.1.1-1) hardy; urgency=low
+
+  * fixing database (contain cities position on the map now)
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Thu, 04 Sep 2008 20:00:55 +0300
+
+cityinfo (0.1.0-5) hardy; urgency=low
+
+  * Week 36 release
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Tue, 02 Sep 2008 10:25:55 +0300
+
+cityinfo (0.1.0-4) hardy; urgency=low
+
+  * Week 34 release.
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Wed, 20 Aug 2008 14:21:51 +0300
+
+cityinfo (0.1.0-3) unstable; urgency=low
+
+  * Added implemented requirements
+  * Implemented: NR#190147
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Thu, 31 Jul 2008 11:29:55 +0300
+
+cityinfo (0.1.0-2) unstable; urgency=low
+
+  * switching to autotools
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Wed, 29 May 2008 13:25:58 +0300
+
+cityinfo (0.1.0-1) unstable; urgency=low
+
+  * Initial release
+
+ -- Dariusz Wiechecki <ext-dariusz.e.wiechecki@nokia.com>  Wed, 14 May 2008 11:30:58 +0300
+

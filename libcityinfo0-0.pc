@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libcityinfo0
+Description: Cities Database available on the platform
+Version: 1.4.42
+Libs: -L${libdir} -lcityinfo0 -lglib-2.0
+Cflags: -I${includedir} -I${includedir}/glib-2.0 -I${libdir}/glib-2.0/include

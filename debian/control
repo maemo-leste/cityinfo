@@ -1,0 +1,29 @@
+Source: cityinfo
+Section: libs
+Priority: extra
+Maintainer: Ivaylo Dimitrv <freemangordon@abv.bg>
+Build-Depends: debhelper (>= 5), libgconf2-dev, libglib2.0-dev
+
+Package: libcityinfo0-0
+Section: libs
+Priority: extra
+Architecture: any
+Depends: ${shlibs:Depends}, osso-cities-l10n-mr | osso-cities-l10n-mr0, osso-countries-l10n-mr | osso-countries-l10n-mr0
+Description: Cities information library.
+ Library providing information about set of cities.
+
+Package: libcityinfo-dev
+Section: devel
+Priority: extra
+Architecture: any
+Depends: libcityinfo0-0 (= ${binary:Version}), pkg-config
+Description: Cities information library headers.
+ API for cities information library.
+
+Package: libcityinfo0-0-dbg
+Section: devel
+Priority: extra
+Architecture: any
+Depends: libcityinfo0-0 (= ${binary:Version}), pkg-config
+Description: Debug symbols for cities information library.
+ Debug symbols for cities information library.
