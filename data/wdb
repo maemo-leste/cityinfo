@@ -37,7 +37,7 @@
 36|qtn_clk_city_bolivia_lapaz|BO|qtn_clk_country_bolivia|America/La_Paz|-16.5|-68.15|0.290940092592592|0.721713832827038|*
 37|qtn_clk_city_bosnia_sarajevo|BA|qtn_clk_country_bosnia_herz|Europe/Sarajevo|43.8666666666667|18.4166666666667|0.526433487654321|0.436745660406257|*
 38|qtn_clk_city_botswana_gaborone|BW|qtn_clk_country_botswana|Africa/Gaborone|-24.75|25.9166666666667|0.546836265432099|0.76002283165553|*
-39|qtn_clk_city_bra_acre|BR|qtn_clk_country_brazil|Brazil/Acre|-17.3833333333333|-50.3666666666667|0.28545520493289805|0.682|*
+39|qtn_clk_city_bra_acre|BR|qtn_clk_country_brazil|America/Rio_Branco|-17.3833333333333|-50.3666666666667|0.28545520493289805|0.682|*
 40|qtn_clk_city_bra_aragaju|BR|qtn_clk_country_brazil|America/Recife|-15.8833333333333|-52.25|0.334193981481481|0.718926252232072|*
 41|qtn_clk_city_bra_araguaina|BR|qtn_clk_country_brazil|America/Araguaina|-7.18333333333333|-48.2|0.345211481481481|0.680340458776629|*
 42|qtn_clk_city_bra_belem|BR|qtn_clk_country_brazil|America/Belem|-1.45|-48.5|0.344395370370371|0.655370307145047|*
@@ -115,7 +115,7 @@
 114|qtn_clk_city_croatia_zagreb|HR|qtn_clk_country_croatia|Europe/Zagreb|45.8|15.9666666666667|0.519768580246914|0.424909240390106|*
 115|qtn_clk_city_cuba_havanna|CU|qtn_clk_country_cuba|America/Havana|23.1333333333333|-82.3666666666667|0.252265493827161|0.54580643904817|*
 116|qtn_clk_city_curacao_willemstad|AN|qtn_clk_country_curacao|America/Curacao|12.2|-68.9333333333333|0.28880913580247|0.595709211121732|*
-117|qtn_clk_city_cyprus_nicosia|CY|qtn_clk_country_cyprus|Europe/Nicosia|35.1666666666667|33.3666666666667|0.5672832789263692|0.48777777777777775|*
+117|qtn_clk_city_cyprus_nicosia|CY|qtn_clk_country_cyprus|Asia/Nicosia|35.1666666666667|33.3666666666667|0.5672832789263692|0.48777777777777775|*
 118|qtn_clk_city_czeh_prague|CZ|qtn_clk_country_czech_reb|Europe/Prague|50.0833333333333|14.4333333333333|0.515597345679012|0.397129554213131|*
 119|qtn_clk_city_den_copenhag|DK|qtn_clk_country_denmark|Europe/Copenhagen|55.6666666666667|12.5833333333333|0.510564660493827|0.356899885108782|*
 120|qtn_clk_city_djibouti_djibouti|DJ|qtn_clk_country_djibouti|Africa/Djibouti|11.6|43.15|0.5941111111111111|0.6010155966630395|*
@@ -172,9 +172,9 @@
 171|qtn_clk_city_indon_makassar|ID|qtn_clk_country_indonesia|Asia/Makassar|-5.11666666666667|119.4|0.801145555555556|0.671316479017722|*
 172|qtn_clk_city_iran_tehran|IR|qtn_clk_country_iran|Asia/Tehran|35.6666666666667|51.4333333333333|0.616251049382716|0.48315072677394|*
 173|qtn_clk_city_iraq_baghdad|IQ|qtn_clk_country_iraq|Asia/Baghdad|33.35|44.4166666666667|0.597163117283951|0.495356568741274|*
-174|qtn_clk_city_ireland_belfast|GB|qtn_clk_country_northern_ireland|Europe/Dublin|54.5833333333333|-5.91666666666667|0.460237808641975|0.365125287196685|*
+174|qtn_clk_city_ireland_belfast|GB|qtn_clk_country_northern_ireland|Europe/London|54.5833333333333|-5.91666666666667|0.460237808641975|0.365125287196685|*
 175|qtn_clk_city_ireland_dubli|IE|qtn_clk_country_ireland|Europe/Dublin|53.3333333333333|-6.25|0.459331018518519|0.37434877208309|*
-176|/apps/cityinfo/qtn_clk_country_israel:qtn_clk_city_israel_telaviv:qtn_clk_city_israel_jerusalem|IL|/apps/cityinfo/qtn_clk_country_israel:qtn_clk_country_israel:qtn_clk_country_jerusalem|Asia/Jerusalem|31.7666666666667|35.2333333333333|0.572181049382716|0.503512004726403|*
+176|qtn_clk_city_israel_telaviv|IL|qtn_clk_country_israel|Asia/Jerusalem||31.7666666666667|35.2333333333333|0.572181049382716|0.503512004726403|*
 177|qtn_clk_city_italy_rome|IT|qtn_clk_country_italy|Europe/Rome|41.9|12.4833333333333|0.51029262345679|0.448398596689668|*
 178|qtn_clk_city_jamaica_kings|JM|qtn_clk_country_jamaica|America/Jamaica|18|-76.8|0.267408888888889|0.569617803761246|*
 179|qtn_clk_city_jordan_amman|JO|qtn_clk_country_jordan|Asia/Amman|31.95|35.9333333333333|0.574085308641975|0.50257498429959|*
@@ -182,7 +182,7 @@
 181|qtn_clk_city_jp_sapporo|JP|qtn_clk_country_japan|Asia/Tokyo|43.05|141.35|0.860857685185185|0.441629825539219|*
 182|qtn_clk_city_jp_tokyo|JP|qtn_clk_country_japan|Asia/Tokyo|35.7|139.766666666667|0.856550432098767|0.482972577426727|*
 183|qtn_clk_city_kaz_aqtau|KZ|qtn_clk_country_kazakhstan|Asia/Aqtau|44.5166666666667|50.2666666666667|0.613077283950618|0.432810244891398|*
-184|qtn_clk_city_kaz_astana|KZ|qtn_clk_country_kazakhstan|Asia/Thimbu|51.1666666666667|71.4333333333333|0.670658456790123|0.389716005595787|*
+184|qtn_clk_city_kaz_astana|KZ|qtn_clk_country_kazakhstan|Asia/Thimbhu|51.1666666666667|71.4333333333333|0.670658456790123|0.389716005595787|*
 185|qtn_clk_city_kenya_nairob|KE|qtn_clk_country_kenya|Africa/Nairobi|-1.28333333333333|36.8166666666667|0.5767138193688792|0.6404444444444445|*
 186|qtn_clk_city_kerguelen_port_aux_francais|TF|qtn_clk_country_kerguelen|Indian/Kerguelen|-49.35|70.2166666666667|0.667348672839506|0.896096865369813|*
 187|qtn_clk_city_kiribati_tarawa|KI|qtn_clk_country_kiribati|Pacific/Tarawa|1.41666666666667|173|0.946957407407408|0.642924603748429|*
@@ -217,12 +217,12 @@
 216|qtn_clk_city_mexico_sonora|MX|qtn_clk_country_mexico|America/Dawson_Creek|29.0666666666667|-110.966666666667|0.174462901234567|0.517105675525238|*
 217|qtn_clk_city_mexico_tijuana|MX|qtn_clk_country_mexico|America/Tijuana|32.5333333333333|-117.016666666667|0.158004660493826|0.499581019946849|*
 218|qtn_clk_city_micronesia_colonia|MP|qtn_clk_country_micronesia|Pacific/Saipan|9.51666666666667|138.1|0.852016481481481|0.60757127453906|*
-219|qtn_clk_city_micronesia_ponape|FM|qtn_clk_country_micronesia|Pacific/Ponape|6.91666666666667|158.166666666667|0.906605246913581|0.618976143513367|*
+219|qtn_clk_city_micronesia_ponape|FM|qtn_clk_country_micronesia|Pacific/Pohnpei|6.91666666666667|158.166666666667|0.906605246913581|0.618976143513367|*
 220|qtn_clk_city_moldova_kishinev|MD|qtn_clk_country_moldova|Europe/Chisinau|47|28.8333333333333|0.554770679012345|0.41735494331481|*
 221|qtn_clk_city_mona_monaco|MC|qtn_clk_country_monaco|Europe/Monaco|43.7|7.38333333333333|0.496418734567901|0.437747808844197|*
 222|qtn_clk_city_mongolia_choibalsan|MN|qtn_clk_country_mongolia|Asia/Choibalsan|48.0666666666667|114.5|0.787815740740741|0.410496280594093|*
 223|qtn_clk_city_mongolia_hovd|MN|qtn_clk_country_mongolia|Asia/Hovd|46.6666666666667|90.75|0.723206944444444|0.419470104922859|*
-224|qtn_clk_city_mongolia_ulan|MN|qtn_clk_country_mongolia|Asia/Ulan_Bator|47.9166666666667|106.883333333333|0.767095586419752|0.411469268809579|*
+224|qtn_clk_city_mongolia_ulan|MN|qtn_clk_country_mongolia|Asia/Ulaanbaatar|47.9166666666667|106.883333333333|0.767095586419752|0.411469268809579|*
 225|qtn_clk_city_montenegro_podgorica|ME|qtn_clk_country_montenegro|Europe/Podgorica|42.4333333333333|19.2333333333333|0.52865512345679|0.445274912190964|*
 226|qtn_clk_city_montserrat_olveston|MS|qtn_clk_country_montserrat|America/Montserrat|16.742578|-62.154808|0.306478425925926|0.574506688637566|*
 227|qtn_clk_city_moroc_casabl|MA|qtn_clk_country_morocco|Africa/Casablanca|33.65|-7.58333333333333|0.455703858024691|0.49379481511011|*
@@ -232,7 +232,7 @@
 231|Longyearbyen|SJ|Svalbard|Europe/Oslo|78.21859|15.64875|0.524664490388103|0.118|*
 232|qtn_clk_city_namibia_windhoek|NA|qtn_clk_country_namibia|Africa/Windhoek|-22.5666666666667|17.1|0.522851666666667|0.749674284890368|*
 233|qtn_clk_city_nauru_makwa|NR|qtn_clk_country_nauru|Pacific/Nauru|-0.55|166.916666666667|0.930408487654322|0.651462707548388|*
-234|qtn_clk_city_nepal_kathma|NP|qtn_clk_country_nepal|Asia/Katmandu|27.7166666666667|85.3166666666667|0.708426265432099|0.523767654596946|*
+234|qtn_clk_city_nepal_kathma|NP|qtn_clk_country_nepal|Asia/Kathmandu|27.7166666666667|85.3166666666667|0.708426265432099|0.523767654596946|*
 235|qtn_clk_city_neth_amsterdam|NL|qtn_clk_country_netherlands|Europe/Amsterdam|52.3666666666667|4.9|0.48911860718171923|0.38177777777777777|*
 236|qtn_clk_city_new_caledonia_noumea|FR|qtn_clk_country_new_caledonia|Pacific/Noumea|-22.2666666666667|166.45|0.929138981481481|0.748265507411943|*
 237|qtn_clk_city_newz_auckland|NZ|qtn_clk_country_new_zealand|Pacific/Auckland|-36.8666666666667|174.766666666667|0.951763395061729|0.821460630375254|*
@@ -355,8 +355,8 @@
 354|qtn_clk_city_usa_gary|US|qtn_clk_country_usa|America/Chicago|41.6|-87.35|0.238708981481481|0.450144206773905|*
 355|Anchorage, AK|US|qtn_clk_country_usa|America/Anchorage|61.217824|-149.900272|0.070000034567901|0.302508623043215|*
 356|qtn_clk_city_usa_hatford|US|qtn_clk_country_usa|America/New_York|41.7666666666667|-72.6833333333333|0.27860774691358|0.449175430810547|*
-357|qtn_clk_city_usa_hawaii|US|qtn_clk_country_usa|US/Hawaii|21.2833333333333|-157.7|0.047330925925926|0.554481435577458|*
-358|qtn_clk_city_usa_indiana|US|qtn_clk_country_usa|America/Indianapolis|39.7666666666667|-86.15|0.241973425925925|0.460640343590251|*
+357|qtn_clk_city_usa_hawaii|US|qtn_clk_country_usa|Pacific/Honolulu|21.2833333333333|-157.7|0.047330925925926|0.554481435577458|*
+358|qtn_clk_city_usa_indiana|US|qtn_clk_country_usa|America/Indiana/Indianapolis|39.7666666666667|-86.15|0.241973425925925|0.460640343590251|*
 359|qtn_clk_city_usa_jackson|US|qtn_clk_country_usa|America/Chicago|32.3|-90.1833333333333|0.231001265432099|0.500780915104659|*
 360|qtn_clk_city_usa_juneau|US|qtn_clk_country_usa|America/Juneau|58.3|-134.416666666667|0.110670216049381|0.335909570416824|*
 361|qtn_clk_city_usa_lasvega|US|qtn_clk_country_usa|America/Los_Angeles|36.1833333333333|-115.133333333333|0.163128024691359|0.480380978630523|*
@@ -390,7 +390,7 @@
 389|qtn_clk_city_vanuatu_port_vila|VU|qtn_clk_country_vanuatu|Pacific/Noumea|-17.7333333333333|168.316666666667|0.93421700617284|0.727316081803334|*
 390|qtn_clk_city_vatican_vatican_city|VA|qtn_clk_country_vatican|Europe/Rome|41.9|12.45|0.510201944444444|0.448398596689668|*
 391|qtn_clk_city_vene_caracas|VE|qtn_clk_country_venezuela|America/Caracas|10.495829|-66.898155|0.29577777777777775|0.6035545883206384|*
-392|qtn_clk_city_viet_hanoi|VN|qtn_clk_country_vietnam|Asia/Saigon|21.0333333333333|105.85|0.764284537037037|0.555645154896908|*
+392|qtn_clk_city_viet_hanoi|VN|qtn_clk_country_vietnam|Asia/Ho_Chi_Minh|21.0333333333333|105.85|0.764284537037037|0.555645154896908|*
 393|qtn_clk_city_wallis_futuna_wallis|WF|qtn_clk_country_wallis_futuna|Pacific/Wallis|-13.3|-176.166666666667|0.963094753086419|0.707336935064105|*
 394|qtn_clk_city_yemen_sana|YE|qtn_clk_country_yemen|Asia/Aden|15.351569|44.207954|0.59702575262967|0.5842222222222222|*
 395|qtn_clk_city_zambia_lusaka|ZM|qtn_clk_country_zambia|Africa/Lusaka|-15.4166666666667|28.2833333333333|0.553274475308642|0.716822418092102|*
