@@ -1,7 +1,7 @@
 Source: cityinfo
 Section: libs
 Priority: extra
-Maintainer: Ivaylo Dimitrv <freemangordon@abv.bg>
+Maintainer: Ivaylo Dimitrov <freemangordon@abv.bg>
 Build-Depends: debhelper (>= 5), libgconf2-dev, libglib2.0-dev
 
 Package: libcityinfo0-0
