@@ -1,3 +1,10 @@
+cityinfo (0.5.16-1+0m5) unstable; urgency=low
+
+  * FOSS replacement first release
+  * various fixes in WDB as of 01.2014
+
+ -- Ivaylo Dimitrov <freemangordon@abv.bg>  Sat, 15 Mar 2014 10:34:33 +0200
+
 cityinfo (0.5.15-1+0m5) unstable; urgency=low
 
   * This entry has been added by BIFH queue processor
