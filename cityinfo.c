@@ -94,7 +94,9 @@ _cityinfo_gconf_get_int(const gchar *key)
 {
   if (!gc_client)
   {
-    g_type_init();
+#if !GLIB_CHECK_VERSION(2,35,0)
+    g_type_init ();
+#endif
     gc_client = gconf_client_get_default();
   }
 
