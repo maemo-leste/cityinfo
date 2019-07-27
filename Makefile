@@ -4,7 +4,7 @@ libcityinfo0.so.0.0.0: cityinfo.c cityinfo.h
 	$(CC) $(CFLAGS) $(shell pkg-config --cflags --libs glib-2.0 gconf-2.0) -shared -fPIC -Wl,-soname=libcityinfo0.so.0 $^ -o $@
 
 test: test.c
-	ln -sf libcityinfo0.so.0.0.0 libcityinfo.so
+	ln -sf libcityinfo0.so.0.0.0 libcityinfo0.so
 	$(CC) $(CFLAGS) $(shell pkg-config --cflags --libs glib-2.0) -I. -L. -lcityinfo0 $^ -o $@
 clean:
 	rm -f libcityinfo0.so.0.0.0 libcityinfo0.so test
