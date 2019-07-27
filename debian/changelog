@@ -1,3 +1,9 @@
+cityinfo (0.5.18-1) unstable; urgency=medium
+
+  * Fix test build
+
+ -- Merlijn Wajer <merlijn@wizzup.org>  Sat, 27 Jul 2019 02:16:02 +0200
+
 cityinfo (0.5.17-1) unstable; urgency=medium
 
   * Make the test binary work without installing the library system-wide.
