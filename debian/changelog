@@ -1,3 +1,9 @@
+cityinfo (0.5.19-1) unstable; urgency=medium
+
+  * Port to autoconf and automake.
+
+ -- Ivan J. <parazyd@dyne.org>  Fri, 30 Oct 2020 18:14:29 +0100
+
 cityinfo (0.5.18-1) unstable; urgency=medium
 
   * Fix test build
@@ -41,7 +47,7 @@ cityinfo (0.5.15-1) unstable; urgency=low
 
   * Week 13, 2010 - first release
   *
-  * Fixes: NB#162603 - Western Sahara need to be removed from Time zone settings 
+  * Fixes: NB#162603 - Western Sahara need to be removed from Time zone settings
   *
 
  -- Moises Martinez <moises.martinez@nokia.com>  Mon, 29 Mar 2010 02:36:47 -0500
@@ -54,7 +60,7 @@ cityinfo (0.5.14-1) unstable; urgency=low
   * 'Jerusalem, Jerusalem'
   * Fixes: NB#155633 - Tel Aviv, Israel on World database (world clock)
   *  for Vanilla/NAM variant
- 
+
  -- Moises Martinez <moises.martinez@nokia.com>  Thu, 11 Feb 2010 02:36:47 -0500
 
 cityinfo (0.5.13-1) unstable; urgency=low
@@ -71,14 +77,14 @@ cityinfo (0.5.12-2) unstable; urgency=low
   * Week 6, 2010 - first release
   *
   * Adding libcityinfo-doc.files in debian for doc deb package
-  * 
+  *
 
  -- Moises Martinez <moises.martinez@nokia.com>  Thu, 11 Feb 2010 02:18:38 -0500
 
 cityinfo (0.5.12-1) unstable; urgency=low
 
   * Week 6, 2010 - first release
-  * 
+  *
   * Adding Doc folder and make files for Gtk-doc support
   *
 
@@ -110,7 +116,7 @@ cityinfo (0.5.9-1) unstable; urgency=low
   *
   * Fixes: NB#150458 Updated wdb in cityinfo
   * Fixes: NB#150461 Updated wdb in cityinfo
-  * 
+  *
 
  -- Moises Martinez <moises.martinez@nokia.com>  Tue,  8 Dec 2009 00:35:08 -0500
 
@@ -127,7 +133,7 @@ cityinfo (0.5.7-1) unstable; urgency=low
 
   * Week 27, 2009 release
   *
-  * Fixes: NB#123109 Logical id cloc_me_go_to_world_clock 
+  * Fixes: NB#123109 Logical id cloc_me_go_to_world_clock
   * Fixes: NB#123347 A couple of incorrect country codes in libcityinfo
 
  -- Moises Martinez <moises.martinez@nokia.com>  Mon, 29 Jun 2009 00:07:45 +0300
